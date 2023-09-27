@@ -7,6 +7,7 @@ using System.Data;
 using System.Reflection;
 using System.Xml;
 
+
 namespace DataAccessLayer
 {
     public static class MessageConvert
@@ -16,7 +17,7 @@ namespace DataAccessLayer
         {
             Settings = new JsonSerializerSettings
             {
-                Formatting = Formatting.None,
+                Formatting = Newtonsoft.Json.Formatting.None,
                 DateFormatHandling = DateFormatHandling.IsoDateFormat,
                 NullValueHandling = NullValueHandling.Ignore,
                 ContractResolver = new CamelCasePropertyNamesContractResolver()

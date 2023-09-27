@@ -28,7 +28,7 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
-        public bool Create(CustomerModel model)
+        /*public bool Create(CustomerModel model)
         {
             string msgError = "";
             try
@@ -94,6 +94,6 @@ namespace DataAccessLayer
             {
                 throw ex;
             }
-        }
+        }*/
     }
 }

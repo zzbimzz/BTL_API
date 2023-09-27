@@ -17,7 +17,7 @@ namespace BusinessLogicLayer
         {
             return _res.GetDatabyID(id);
         }
-        public bool Create(CustomerModel model)
+        /*public bool Create(CustomerModel model)
         {
             return _res.Create(model);
         }
@@ -28,6 +28,6 @@ namespace BusinessLogicLayer
         public List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string ten_khach, string dia_chi)
         {
             return _res.Search(pageIndex, pageSize, out total, ten_khach, dia_chi);
-        }
+        }*/
     }
 }

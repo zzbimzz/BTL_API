@@ -1,0 +1,17 @@
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\BLL.deps.json
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\BLL.dll
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\BLL.pdb
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\DAL.dll
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\DataModel.dll
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\DAL.pdb
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\bin\Debug\net6.0\DataModel.pdb
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.dll
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\refint\BLL.dll
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\BLL.pdb
+E:\API\BTL_API_PISHOP\Code\BTL_API\BLL\obj\Debug\net6.0\ref\BLL.dll
