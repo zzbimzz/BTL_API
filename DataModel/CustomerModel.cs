@@ -7,12 +7,11 @@ namespace DataModel
 {
     public class CustomerModel
     {
-        public int Id { get; set; }
-        public string TenKH { get; set; }
-        public bool GioiTinh { get; set; }
-        public string DiaChi { get; set; }
-        public string SDT { get; set; }
+        public int CustomerID { get; set; }
+        public string Name { get; set; }
         public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Address { get; set; }
 
     }
 }

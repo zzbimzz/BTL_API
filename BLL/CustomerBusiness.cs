@@ -13,21 +13,25 @@ namespace BusinessLogicLayer
         {
             _res = res;
         }
-        public CustomerModel GetDatabyID(string id)
+        public CustomerModel GetDatabyID(int id)
         {
             return _res.GetDatabyID(id);
         }
-        /*public bool Create(CustomerModel model)
+        public bool Create(CustomerModel model)
         {
             return _res.Create(model);
         }
-        public bool Update(CustomerModel model)
+       public bool Update(CustomerModel model)
         {
             return _res.Update(model);
         }
-        public List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string ten_khach, string dia_chi)
+        public bool Delete(int id)
         {
-            return _res.Search(pageIndex, pageSize, out total, ten_khach, dia_chi);
-        }*/
+            return _res.Delete(id);
+        }
+        public List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string Name, string Address)
+        {
+            return _res.Search(pageIndex, pageSize, out total, Name, Address);
+        }
     }
 }

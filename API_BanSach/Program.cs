@@ -10,6 +10,8 @@ builder.Services.AddCors(options =>
 builder.Services.AddTransient<IDatabaseHelper, DatabaseHelper>();
 builder.Services.AddTransient<ICustomerRepository,CustomerRepository>();
 builder.Services.AddTransient<ICustomerBusiness,CustomerBusiness>();
+builder.Services.AddTransient<IAuthorsRepository, AuthorsRepository>();
+builder.Services.AddTransient<IAuthorsBusiness, AuthorsBusiness>();
 builder.Services.AddControllers();
 
 

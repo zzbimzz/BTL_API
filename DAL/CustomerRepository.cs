@@ -12,13 +12,13 @@ namespace DataAccessLayer
         {
             _dbHelper = dbHelper;
         }
-        public CustomerModel GetDatabyID(string id)
+        public CustomerModel GetDatabyID(int id)
         {
             string msgError = "";
             try
             {
-                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_khach_get_by_id",
-                     "@id", id);
+                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_customer_get_by_id",
+                     "@CustomerID", id);
                 if (!string.IsNullOrEmpty(msgError))
                     throw new Exception(msgError);
                 return dt.ConvertTo<CustomerModel>().FirstOrDefault();
@@ -28,17 +28,17 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
-        /*public bool Create(CustomerModel model)
+        public bool Create(CustomerModel model)
         {
             string msgError = "";
             try
             {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_khach_create",
-                "@TenKH", model.TenKH,
-                "@GioiTinh", model.GioiTinh,
-                "@DiaChi", model.DiaChi,
-                "@SDT", model.SDT,
-                "@Email", model.Email);
+                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_AddNewCustomer",
+                "@Name", model.Name,
+                "@Email", model.Email,
+                "@Phone", model.Phone,  
+                "@Address", model.Address);
+
                 if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
                 {
                     throw new Exception(Convert.ToString(result) + msgError);
@@ -55,13 +55,30 @@ namespace DataAccessLayer
             string msgError = "";
             try
             {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_khach_update",
-                "@Id", model.Id,
-                "@TenKH", model.TenKH,
-                "@GioiTinh", model.GioiTinh,
-                "@DiaChi", model.DiaChi,
-                "@SDT", model.SDT,
-                "@Email", model.Email);
+                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_UpdateCustomer",
+                "@CustomerID", model.CustomerID,
+                "@Name", model.Name,
+                "@Email", model.Email,
+                "@Phone", model.Phone,
+                "@Address", model.Address);
+                if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
+                {
+                    throw new Exception(Convert.ToString(result) + msgError);
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public bool Delete(int id)
+        {
+            string msgError = "";
+            try
+            {
+                var result = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_DeleteCustomer",
+                     "@CustomerID", id);
                 if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
                 {
                     throw new Exception(Convert.ToString(result) + msgError);
@@ -74,17 +91,17 @@ namespace DataAccessLayer
             }
         }
 
-        public List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string ten_khach, string dia_chi)
+        public List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string Name, string Address)
         {
             string msgError = "";
             total = 0;
             try
             {
-                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_khach_search",
+                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_customer_search",
                     "@page_index", pageIndex,
                     "@page_size", pageSize,
-                    "@ten_khach", ten_khach,
-                    "@dia_chi", dia_chi);
+                    "@Name", Name,
+                    "@Address", Address);
                 if (!string.IsNullOrEmpty(msgError))
                     throw new Exception(msgError);
                 if (dt.Rows.Count > 0) total = (long)dt.Rows[0]["RecordCount"];
@@ -94,6 +111,7 @@ namespace DataAccessLayer
             {
                 throw ex;
             }
-        }*/
+        }
+
     }
 }

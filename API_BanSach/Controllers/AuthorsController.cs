@@ -7,40 +7,40 @@ namespace Api.BanHang.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CustomerController : ControllerBase
+    public class AuthorsController : ControllerBase
     {
-        private ICustomerBusiness _customerBusiness;
-        public CustomerController(ICustomerBusiness khachBusiness)
+        private IAuthorsBusiness _authorsBusiness;
+        public AuthorsController(IAuthorsBusiness tacgiaBusiness)
         {
-            _customerBusiness = khachBusiness;
+            _authorsBusiness = tacgiaBusiness;
         }
-        [Route("get-by-id/{id}")]
+        [Route("get-author/{id}")]
         [HttpGet]
-        public CustomerModel GetDatabyID(int id)
+        public AuthorsModel GetDatabyID(int id)
         {
-            return _customerBusiness.GetDatabyID(id);
+            return _authorsBusiness.GetDatabyID(id);
         }
-        [Route("create-khach")]
+        [Route("create-author")]
         [HttpPost]
-        public CustomerModel CreateItem([FromBody] CustomerModel model)
+        public AuthorsModel CreateItem([FromBody] AuthorsModel model)
         {
-            _customerBusiness.Create(model);
+            _authorsBusiness.Create(model);
             return model;
         }
-        [Route("update-khach")]
+        [Route("update-author")]
         [HttpPost]
-        public CustomerModel UpdateItem([FromBody] CustomerModel model)
+        public AuthorsModel UpdateItem([FromBody] AuthorsModel model)
         {
-            _customerBusiness.Update(model);
+            _authorsBusiness.Update(model);
             return model;
         }
-        [Route("delete-khach")]
+        [Route("delete-author")]
         [HttpPost]
         public bool DeleteID(int id)
         {
-            return _customerBusiness.Delete(id);
+            return _authorsBusiness.Delete(id);
         }
-        [Route("search")]
+ /*       [Route("search")]
         [HttpPost]
         public IActionResult Search([FromBody] Dictionary<string, object> formData)
         {
@@ -68,6 +68,6 @@ namespace Api.BanHang.Controllers
             {
                 throw new Exception(ex.Message);
             }
-        }
+        }*/
     }
 }

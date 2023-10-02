@@ -9,9 +9,10 @@ namespace DataAccessLayer
 {
     public partial interface ICustomerRepository
     {
-        CustomerModel GetDatabyID(string id);
-        /*bool Create(CustomerModel model);
+        CustomerModel GetDatabyID(int id);
+        bool Create(CustomerModel model);
         bool Update(CustomerModel model);
-        List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string ten_khach, string dia_chi);*/
+        bool Delete(int id);
+        List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string Name, string Address);
     }
 }
