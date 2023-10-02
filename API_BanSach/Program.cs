@@ -12,6 +12,10 @@ builder.Services.AddTransient<ICustomerRepository,CustomerRepository>();
 builder.Services.AddTransient<ICustomerBusiness,CustomerBusiness>();
 builder.Services.AddTransient<IAuthorsRepository, AuthorsRepository>();
 builder.Services.AddTransient<IAuthorsBusiness, AuthorsBusiness>();
+builder.Services.AddTransient<IGenresRepository, GenresRepository>();
+builder.Services.AddTransient<IGenresBusiness, GenresBusiness>();
+builder.Services.AddTransient<ISuppliersRepository, SuppliersRepository>();
+builder.Services.AddTransient<ISuppliersBusiness, SuppliersBusiness>();
 builder.Services.AddControllers();
 
 
