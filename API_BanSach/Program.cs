@@ -16,6 +16,8 @@ builder.Services.AddTransient<IGenresRepository, GenresRepository>();
 builder.Services.AddTransient<IGenresBusiness, GenresBusiness>();
 builder.Services.AddTransient<ISuppliersRepository, SuppliersRepository>();
 builder.Services.AddTransient<ISuppliersBusiness, SuppliersBusiness>();
+builder.Services.AddTransient<IUsersRepository, UsersRepository>();
+builder.Services.AddTransient<IUsersBusiness, UsersBusiness>();
 builder.Services.AddControllers();
 
 
