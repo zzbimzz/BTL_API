@@ -20,6 +20,35 @@ namespace DataAccessLayer
         {
             StrConnection = configuration["ConnectionStrings:DefaultConnection"];
         }
+        public DataTable ExecuteQuery(string query, object[] parameters = null)
+        {
+            DataTable dt = new DataTable();
+
+            using (sqlConnection = new SqlConnection(StrConnection))
+            {
+                sqlConnection.Open();
+                SqlCommand cmd = new SqlCommand(query, sqlConnection);
+                if (parameters != null)
+                {
+                    string[] listPara = query.Split(' ');
+                    int i = 0;
+                    foreach (string param in listPara)
+                    {
+                        if (param.Contains('@'))
+                        {
+                            cmd.Parameters.AddWithValue(param, parameters[i]);
+                            i++;
+                        }
+                    }
+                }
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                sqlConnection.Close();
+                da.Dispose();
+            }
+            return dt;
+        }
         /// <summary>
         /// Set Connection String
         /// </summary>
@@ -49,6 +78,7 @@ namespace DataAccessLayer
                 return exception.Message;
             }
         }
+
         /// <summary>
         /// Open Connect begin transaction to PostGres DB
         /// </summary>

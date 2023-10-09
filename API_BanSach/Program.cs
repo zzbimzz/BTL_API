@@ -1,4 +1,5 @@
 using BusinessLogicLayer;
+using DAL.Interfaces;
 using DataAccessLayer;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,10 @@ builder.Services.AddTransient<ISuppliersRepository, SuppliersRepository>();
 builder.Services.AddTransient<ISuppliersBusiness, SuppliersBusiness>();
 builder.Services.AddTransient<IUsersRepository, UsersRepository>();
 builder.Services.AddTransient<IUsersBusiness, UsersBusiness>();
+builder.Services.AddTransient<IBooksRepository, BooksRepository>();
+builder.Services.AddTransient<IBooksBusiness, BooksBusiness>();
+builder.Services.AddTransient<INotificationsRepository, NotificationsRepository>();
+builder.Services.AddTransient<INotificationsBusiness, NotificationsBusiness>();
 builder.Services.AddControllers();
 
 
