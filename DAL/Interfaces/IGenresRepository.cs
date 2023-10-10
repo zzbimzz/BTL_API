@@ -13,6 +13,7 @@ namespace BusinessLogicLayer
         bool Create(GenresModel model);
         bool Update(GenresModel model);
         bool Delete(int id);
+        List<GenresModel> GetAll();
         /*        List<AuthorsModel> Search(int pageIndex, int pageSize, out long total, string Name);*/
     }
 }

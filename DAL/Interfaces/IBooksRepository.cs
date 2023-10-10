@@ -13,5 +13,7 @@ namespace DAL.Interfaces
         bool Create(BooksModel model);
         bool Update(BooksModel model);
         bool Delete(int id);
+        List<BooksModel> GetAll();
+        List<BooksModel> Search(int pageIndex, int pageSize, out long total, string Title);
     }
 }

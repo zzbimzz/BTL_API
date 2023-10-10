@@ -35,39 +35,45 @@ namespace Api.BanHang.Controllers
             return model;
         }
         [Route("delete-author")]
-        [HttpPost]
+        [HttpPost]  
         public bool DeleteID(int id)
         {
             return _authorsBusiness.Delete(id);
         }
- /*       [Route("search")]
-        [HttpPost]
-        public IActionResult Search([FromBody] Dictionary<string, object> formData)
+        [Route("get-all")]
+        [HttpGet]
+        public List<AuthorsModel> GetAll()
         {
-            try
-            {
-                var page = int.Parse(formData["page"].ToString());
-                var pageSize = int.Parse(formData["pageSize"].ToString());
-                string Name = "";
-                if (formData.Keys.Contains("Name") && !string.IsNullOrEmpty(Convert.ToString(formData["Name"]))) { Name = Convert.ToString(formData["Name"]); }
-                string Address = "";
-                if (formData.Keys.Contains("Address") && !string.IsNullOrEmpty(Convert.ToString(formData["Address"]))) { Address = Convert.ToString(formData["Address"]); }
-                long total = 0;
-                var data = _customerBusiness.Search(page, pageSize, out total, Name, Address);
-                return Ok(
-                    new
-                    {
-                        TotalItems = total,
-                        Data = data,
-                        Page = page,
-                        PageSize = pageSize
-                    }
-                    );
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-        }*/
+            return _authorsBusiness.GetAll();
+        }
+        /*       [Route("search")]
+               [HttpPost]
+               public IActionResult Search([FromBody] Dictionary<string, object> formData)
+               {
+                   try
+                   {
+                       var page = int.Parse(formData["page"].ToString());
+                       var pageSize = int.Parse(formData["pageSize"].ToString());
+                       string Name = "";
+                       if (formData.Keys.Contains("Name") && !string.IsNullOrEmpty(Convert.ToString(formData["Name"]))) { Name = Convert.ToString(formData["Name"]); }
+                       string Address = "";
+                       if (formData.Keys.Contains("Address") && !string.IsNullOrEmpty(Convert.ToString(formData["Address"]))) { Address = Convert.ToString(formData["Address"]); }
+                       long total = 0;
+                       var data = _customerBusiness.Search(page, pageSize, out total, Name, Address);
+                       return Ok(
+                           new
+                           {
+                               TotalItems = total,
+                               Data = data,
+                               Page = page,
+                               PageSize = pageSize
+                           }
+                           );
+                   }
+                   catch (Exception ex)
+                   {
+                       throw new Exception(ex.Message);
+                   }
+               }*/
     }
 }

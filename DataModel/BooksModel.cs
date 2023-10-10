@@ -10,9 +10,10 @@ namespace DataModel
     {
         public int BookID { get; set; }
         public string Title { get; set; }
+        public string ImageBook { get; set; }
         public int AuthorID { get; set; }
         public int GenreID { get; set; }
-        public decimal Price { get; set; }
+        public int Price { get; set; }
         public int Stock { get; set; }
     }
 }

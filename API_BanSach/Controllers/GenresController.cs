@@ -39,5 +39,11 @@ namespace Api.BanHang.Controllers
         {
             return _genresBusiness.Delete(id);
         }
+        [Route("get-all")]
+        [HttpGet]
+        public List<GenresModel> GetAll()
+        {
+            return _genresBusiness.GetAll();
+        }
     }
 }

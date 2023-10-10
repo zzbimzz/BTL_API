@@ -41,11 +41,10 @@ namespace Api.BanHang.Controllers
             return _notificationsBusiness.Delete(id);
         }
         [Route("getAll-notifi")]
-        [HttpPost]
-        public IActionResult GetAll()
+        [HttpGet]
+        public List<NotificationsModel> GetAll()
         {
-            var dt = _notificationsBusiness.GetAll().Select(x => new { x.NotificationID, x.Title, x.Description, });
-            return Ok(dt);
+            return _notificationsBusiness.GetAll();
         }
         /*       [Route("search")]
                [HttpPost]

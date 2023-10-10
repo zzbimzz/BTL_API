@@ -13,6 +13,7 @@ namespace BusinessLogicLayer
         bool Create(BooksModel model);
         bool Update(BooksModel model);
         bool Delete(int id);
-        //List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string Name, string Address);
+        List<BooksModel> GetAll();
+        List<BooksModel> Search(int pageIndex, int pageSize, out long total, string Title);
     }
 }

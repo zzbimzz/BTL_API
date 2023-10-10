@@ -97,5 +97,44 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
+        public List<BooksModel> Search(int pageIndex, int pageSize, out long total, string Title)
+        {
+            string msgError = "";
+            total = 0;
+            try
+            {
+                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_book_search",
+                    "@page_index", pageIndex,
+                    "@page_size", pageSize,
+                    "@Title", Title
+                    );
+                if (!string.IsNullOrEmpty(msgError))
+                    throw new Exception(msgError);
+                if (dt.Rows.Count > 0) total = (long)dt.Rows[0]["RecordCount"];
+                return dt.ConvertTo<BooksModel>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<BooksModel> GetAll()
+        {
+            string msgError = "";
+            try
+            {
+                var data = _dbHelper.ExecuteQuery("sp_Book_getAll");
+                if (!string.IsNullOrEmpty(msgError))
+                {
+                    throw new Exception(msgError);
+                }
+                return data.ConvertTo<BooksModel>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

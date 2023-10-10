@@ -40,7 +40,7 @@ namespace Api.BanHang.Controllers
         {
             return _bookBusiness.Delete(id);
         }
-        /*[Route("search")]
+        [Route("search")]
         [HttpPost]
         public IActionResult Search([FromBody] Dictionary<string, object> formData)
         {
@@ -48,12 +48,11 @@ namespace Api.BanHang.Controllers
             {
                 var page = int.Parse(formData["page"].ToString());
                 var pageSize = int.Parse(formData["pageSize"].ToString());
-                string Name = "";
-                if (formData.Keys.Contains("Name") && !string.IsNullOrEmpty(Convert.ToString(formData["Name"]))) { Name = Convert.ToString(formData["Name"]); }
-                string Address = "";
-                if (formData.Keys.Contains("Address") && !string.IsNullOrEmpty(Convert.ToString(formData["Address"]))) { Address = Convert.ToString(formData["Address"]); }
+                string Title = "";
+                if (formData.Keys.Contains("Title") && !string.IsNullOrEmpty(Convert.ToString(formData["Title"]))) { Title = Convert.ToString(formData["@Title"]); }
+                
                 long total = 0;
-                var data = _customerBusiness.Search(page, pageSize, out total, Name, Address);
+                var data = _bookBusiness.Search(page, pageSize, out total, Title);
                 return Ok(
                     new
                     {
@@ -68,6 +67,13 @@ namespace Api.BanHang.Controllers
             {
                 throw new Exception(ex.Message);
             }
-        }*/
+        }
+
+        [Route("get-all")]
+        [HttpGet]
+        public List<BooksModel> GetAll()
+        {
+            return _bookBusiness.GetAll();
+        }
     }
 }

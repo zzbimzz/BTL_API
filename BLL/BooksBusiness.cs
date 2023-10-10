@@ -30,9 +30,13 @@ namespace BusinessLogicLayer
         {
             return _res.Delete(id);
         }
-        /*public List<CustomerModel> Search(int pageIndex, int pageSize, out long total, string Name, string Address)
+        public List<BooksModel> Search(int pageIndex, int pageSize, out long total, string Title)
         {
-            return _res.Search(pageIndex, pageSize, out total, Name, Address);
-        }*/
+            return _res.Search(pageIndex, pageSize, out total, Title);
+        }
+        public List<BooksModel> GetAll()
+        {
+            return _res.GetAll();
+        }
     }
 }

@@ -87,5 +87,22 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
+        public List<AuthorsModel> GetAll()
+        {
+            string msgError = "";
+            try
+            {
+                var data = _dbHelper.ExecuteQuery("sp_Author_getAll");
+                if (!string.IsNullOrEmpty(msgError))
+                {
+                    throw new Exception(msgError);
+                }
+                return data.ConvertTo<AuthorsModel>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
