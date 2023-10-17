@@ -4,6 +4,7 @@ using System.Linq;
 using System;
 using BusinessLogicLayer;
 using DAL.Interfaces;
+using System.Data.SqlClient;
 
 namespace DataAccessLayer
 {
@@ -136,5 +137,28 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
+        public GetByGenresBookModel getGenresBook()
+        {
+            string msgError = ""; 
+
+            try
+            {
+                var data = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "gethome"
+                     );
+
+                if (!string.IsNullOrEmpty(msgError))
+                {
+                    throw new Exception(msgError);
+                }
+
+                return data.ConvertTo<GetByGenresBookModel>().FirstOrDefault();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

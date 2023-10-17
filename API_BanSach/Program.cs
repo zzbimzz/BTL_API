@@ -23,6 +23,10 @@ builder.Services.AddTransient<IBooksRepository, BooksRepository>();
 builder.Services.AddTransient<IBooksBusiness, BooksBusiness>();
 builder.Services.AddTransient<INotificationsRepository, NotificationsRepository>();
 builder.Services.AddTransient<INotificationsBusiness, NotificationsBusiness>();
+builder.Services.AddTransient<ICartsRepository, CartsRepository>();
+builder.Services.AddTransient<ICartsBusiness, CartsBusiness>();
+builder.Services.AddTransient<IOrdersRepository, OrdersRepository>();
+builder.Services.AddTransient<IOrdersBusiness, OrdersBusiness>();
 builder.Services.AddControllers();
 
 

@@ -75,5 +75,12 @@ namespace Api.BanHang.Controllers
         {
             return _bookBusiness.GetAll();
         }
+        [Route("get-by-genre")]
+        [HttpGet]
+        public GetByGenresBookModel getGenresBook()
+        {
+            return _bookBusiness.getGenresBook();
+        }
+
     }
 }

@@ -34,6 +34,12 @@ namespace BusinessLogicLayer
         {
             return _res.Search(pageIndex, pageSize, out total, Title);
         }
+
+        public GetByGenresBookModel getGenresBook()
+        {
+            return _res.getGenresBook();
+        }
+
         public List<BooksModel> GetAll()
         {
             return _res.GetAll();
