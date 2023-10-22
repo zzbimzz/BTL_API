@@ -137,13 +137,13 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
-        public GetByGenresBookModel getGenresBook()
+        public List<GetByGenresBookModel> getGenresBook()
         {
             string msgError = ""; 
 
             try
             {
-                var data = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "gethome"
+                var data = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_get_book_by_genre"
                      );
 
                 if (!string.IsNullOrEmpty(msgError))
@@ -151,7 +151,7 @@ namespace DataAccessLayer
                     throw new Exception(msgError);
                 }
 
-                return data.ConvertTo<GetByGenresBookModel>().FirstOrDefault();
+                return data.ConvertTo<GetByGenresBookModel>().ToList();
 
             }
             catch (Exception ex)

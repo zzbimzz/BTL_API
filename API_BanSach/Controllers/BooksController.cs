@@ -77,7 +77,7 @@ namespace Api.BanHang.Controllers
         }
         [Route("get-by-genre")]
         [HttpGet]
-        public GetByGenresBookModel getGenresBook()
+        public List<GetByGenresBookModel> getGenresBook()
         {
             return _bookBusiness.getGenresBook();
         }

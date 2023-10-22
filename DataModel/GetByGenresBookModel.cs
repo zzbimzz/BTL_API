@@ -8,10 +8,11 @@ namespace DataModel
 {
     public class GetByGenresBookModel
     {
-        public List<BooksModel> list_json_getGenresBook_action { get; set; }
-        public List<BooksModel> list_json_getGenresBook_romantic { get; set; }
-        public List<BooksModel> list_json_getGenresBook_fantasy { get; set; }
+        public string Genres { get; set; }
+        public List<BooksModel> list_json_Courses { get; set; }
+
+
 
 
     }
-}
+}   
