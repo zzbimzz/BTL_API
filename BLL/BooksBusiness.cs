@@ -44,5 +44,9 @@ namespace BusinessLogicLayer
         {
             return _res.GetAll();
         }
+        public List<BooksModel> GetByBookHot()
+        {
+            return _res.GetByBookHot();
+        }
     }
 }

@@ -14,6 +14,8 @@ namespace BusinessLogicLayer
         bool Update(BooksModel model);
         bool Delete(int id);
         List<BooksModel> GetAll();
+
+        List<BooksModel> GetByBookHot();
         List<GetByGenresBookModel> getGenresBook();
 
 

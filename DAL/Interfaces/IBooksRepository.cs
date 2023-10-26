@@ -15,7 +15,7 @@ namespace DAL.Interfaces
         bool Delete(int id);
         List<BooksModel> GetAll();
 
-
+        List<BooksModel> GetByBookHot();
         List<GetByGenresBookModel> getGenresBook();
 
         List<BooksModel> Search(int pageIndex, int pageSize, out long total, string Title);

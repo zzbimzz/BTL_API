@@ -160,5 +160,28 @@ namespace DataAccessLayer
             }
         }
 
+        public List<BooksModel> GetByBookHot()
+        {
+            string msgError = "";
+
+            try
+            {
+                var data = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_get_book_hot"
+                     );
+
+                if (!string.IsNullOrEmpty(msgError))
+                {
+                    throw new Exception(msgError);
+                }
+
+                return data.ConvertTo<BooksModel>().ToList();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }
