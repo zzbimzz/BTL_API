@@ -10,7 +10,6 @@ namespace DataModel
     {
         public int OrderID { get; set; }
         public int CustomerID { get; set; }
-        public string? Name { get; set; }
 
         public int TotalAmount { get; set; }
         public bool StatusOrder { get; set; }
@@ -23,6 +22,6 @@ namespace DataModel
         public int BookID { get; set; }
         public int Quantity { get; set; }
         public int Subtotal { get; set; }
-        //public int status { get; set; }
+
     }
 }

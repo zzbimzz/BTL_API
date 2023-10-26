@@ -16,6 +16,12 @@ namespace DataModel
         public int Price { get; set; }
         public int Stock { get; set; }
 
+        public string GenreName { get; set; }
+
+        public string AuthorName { get; set; }
+        public string SupplierName { get; set; }
+
+
 
     }
 }

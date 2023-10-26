@@ -1,4 +1,5 @@
 ﻿using DataModel;
+using Newtonsoft.Json;
 
 namespace DataAccessLayer
 {
@@ -31,16 +32,17 @@ namespace DataAccessLayer
             string msgError = "";
             try
             {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_hoa_don_update",
-                "@OrderID", model.OrderID,
+                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_hoadon_create",
                 "@CustomerID", model.CustomerID,
                 "@TotalAmount", model.TotalAmount,
-                "@TrangThai", model.StatusOrder,
-                "@list_json_chitiethoadon", model.list_json_chitiethoadon != null ? MessageConvert.SerializeObject(model.list_json_chitiethoadon) : null);
-                if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
+                "@StatusOrder", model.StatusOrder,
+                "@list_json_chitiethoadon", model.list_json_chitiethoadon != null ? JsonConvert.SerializeObject(model.list_json_chitiethoadon) : null);
+
+                if (result != null && !string.IsNullOrEmpty(result.ToString()) || !string.IsNullOrEmpty(msgError))
                 {
                     throw new Exception(Convert.ToString(result) + msgError);
                 }
+
                 return true;
             }
             catch (Exception ex)
@@ -48,6 +50,7 @@ namespace DataAccessLayer
                 throw ex;
             }
         }
+
         public bool Update(OrderModel model)
         {
             string msgError = "";
