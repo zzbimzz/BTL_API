@@ -9,7 +9,7 @@ namespace DAL.Interfaces
 {
     public partial interface IBooksRepository
     {
-        BooksModel GetDatabyID(int id);
+        BookDetailsModel GetDatabyID(int id);
         bool Create(BooksModel model);
         bool Update(BooksModel model);
         bool Delete(int id);

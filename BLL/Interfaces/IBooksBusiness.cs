@@ -9,7 +9,7 @@ namespace BusinessLogicLayer
 {
     public interface IBooksBusiness
     {
-        BooksModel GetDatabyID(int id);
+        BookDetailsModel GetDatabyID(int id);
         bool Create(BooksModel model);
         bool Update(BooksModel model);
         bool Delete(int id);

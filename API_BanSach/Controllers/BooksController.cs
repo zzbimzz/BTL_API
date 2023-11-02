@@ -16,7 +16,7 @@ namespace Api.BanHang.Controllers
         }
         [Route("get-by-id/{id}")]
         [HttpGet]
-        public BooksModel GetDatabyID(int id)
+        public BookDetailsModel GetDatabyID(int id)
         {
             return _bookBusiness.GetDatabyID(id);
         }
@@ -49,7 +49,7 @@ namespace Api.BanHang.Controllers
                 var page = int.Parse(formData["page"].ToString());
                 var pageSize = int.Parse(formData["pageSize"].ToString());
                 string Title = "";
-                if (formData.Keys.Contains("Title") && !string.IsNullOrEmpty(Convert.ToString(formData["Title"]))) { Title = Convert.ToString(formData["@Title"]); }
+                if (formData.Keys.Contains("Title") && !string.IsNullOrEmpty(Convert.ToString(formData["Title"]))) { Title = Convert.ToString(formData["Title"]); }
                 
                 long total = 0;
                 var data = _bookBusiness.Search(page, pageSize, out total, Title);

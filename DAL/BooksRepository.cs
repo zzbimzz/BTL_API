@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System;
-using BusinessLogicLayer;
+//using BusinessLogicLayer;
 using DAL.Interfaces;
 using System.Data.SqlClient;
 
@@ -15,7 +15,7 @@ namespace DataAccessLayer
         {
             _dbHelper = dbHelper;
         }
-        public BooksModel GetDatabyID(int id)
+        public BookDetailsModel GetDatabyID(int id)
         {
             string msgError = "";
             try
@@ -24,13 +24,15 @@ namespace DataAccessLayer
                      "@BookID", id);
                 if (!string.IsNullOrEmpty(msgError))
                     throw new Exception(msgError);
-                return dt.ConvertTo<BooksModel>().FirstOrDefault();
+                return dt.ConvertTo<BookDetailsModel>().FirstOrDefault();
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+
+
         public bool Create(BooksModel model)
         {
             string msgError = "";
@@ -38,8 +40,10 @@ namespace DataAccessLayer
             {
                 var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_AddNewBook",
                 "@Title", model.Title,
+                "@ImageBook", model.ImageBook,
                 "@AuthorID ", model.AuthorID,
                 "@GenreID ", model.GenreID,
+                "@SupplierID", model.SupplierID,
                 "@Price", model.Price,
                 "@Stock", model.Stock
                 );

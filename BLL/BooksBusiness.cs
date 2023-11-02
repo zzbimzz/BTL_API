@@ -14,7 +14,7 @@ namespace BusinessLogicLayer
         {
             _res = res;
         }
-        public BooksModel GetDatabyID(int id)
+        public BookDetailsModel GetDatabyID(int id)
         {
             return _res.GetDatabyID(id);
         }
