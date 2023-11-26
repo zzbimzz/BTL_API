@@ -12,6 +12,8 @@ namespace BusinessLogicLayer
         OrderModel GetDatabyID(int id);
         bool Create(OrderModel model);
         bool Update(OrderModel model);
-        public List<StatiѕticModel> Search(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date);
+        bool Delete(int id);
+        public List<StatiѕticModel> ThongKe(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date);
+        public List<SearchOrderModel> Search(int pageIndex, int pageSize, out long total, string name);
     }
 }

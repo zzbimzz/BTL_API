@@ -25,9 +25,18 @@ namespace BusinessLogicLayer
         {
             return _res.Update(model);
         }
-        public List<StatiѕticModel> Search(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date)
+        public bool Delete(int id)
         {
-            return _res.Search(pageIndex, pageSize, out total, from_date, to_date);
+            return _res.Delete(id);
+        }
+        public List<StatiѕticModel> ThongKe(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date)
+        {
+            return _res.ThongKe(pageIndex, pageSize, out total, from_date, to_date);
+        }
+
+        public List<SearchOrderModel> Search(int pageIndex, int pageSize, out long total, string name)
+        {
+            return _res.Search(pageIndex, pageSize, out total, name);
         }
     }
 }

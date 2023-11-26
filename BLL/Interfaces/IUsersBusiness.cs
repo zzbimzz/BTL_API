@@ -9,6 +9,9 @@ namespace BusinessLogicLayer
 {
     public partial interface IUsersBusiness
     {
+/*        public UsersModel GetLoginbyId(string id);
+        bool Create(UsersModel model);
+        bool Update(UsersModel model);*/
         UsersModel Login(string taikhoan, string matkhau);
     }
 }

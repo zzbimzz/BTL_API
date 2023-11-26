@@ -13,7 +13,7 @@ namespace DataModel
 
         public int TotalAmount { get; set; }
         public bool StatusOrder { get; set; }
-        public List<OrderDetails> list_json_chitiethoadon { get; set; }
+        public List<OrderDetails>? list_json_chitiethoadon { get; set; }
     }
     public class OrderDetails
     {

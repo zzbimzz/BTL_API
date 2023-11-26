@@ -28,14 +28,14 @@ namespace Api.BanHang.Controllers
             return model;
         }
         [Route("update-book")]
-        [HttpPost]
+        [HttpPatch]
         public BooksModel UpdateItem([FromBody] BooksModel model)
         {
             _bookBusiness.Update(model);
             return model;
         }
         [Route("delete-book")]
-        [HttpPost]
+        [HttpDelete]
         public bool DeleteID(int id)
         {
             return _bookBusiness.Delete(id);

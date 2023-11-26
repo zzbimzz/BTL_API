@@ -14,11 +14,24 @@ namespace BusinessLogicLayer
     {
         private IUsersRepository _res;
         private string secret;
+
         public UsersBusiness(IUsersRepository res, IConfiguration configuration)
         {
             _res = res;
             secret = configuration["AppSettings:Secret"];
         }
+/*        public UsersModel GetLoginbyId(string id)
+        {
+            return _res.GetLoginbyId(id);
+        }
+        public bool Create(UsersModel model)
+        {
+            return _res.Create(model);
+        }
+        public bool Update(UsersModel model)
+        {
+            return _res.Update(model);
+        }*/
 
         public UsersModel Login(string taikhoan, string matkhau)
         {
@@ -32,7 +45,9 @@ namespace BusinessLogicLayer
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim(ClaimTypes.Name, user.Username.ToString()),
-                    new Claim(ClaimTypes.Hash, user.Password)
+                    new Claim(ClaimTypes.Hash, user.Password),
+                    new Claim("UserID", user.UserID.ToString(), ClaimValueTypes.Integer), // Chú ý thêm ClaimValueTypes.Integer cho trường int
+                    new Claim("Role", user.Role.ToString(), ClaimValueTypes.Boolean)
                 }),
                 Expires = DateTime.UtcNow.AddDays(7),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.Aes128CbcHmacSha256)
