@@ -13,7 +13,7 @@ namespace BusinessLogicLayer
             _res = res;
         }
 
-        public OrderModel GetDatabyID(int id)
+        public GetOrderDetailsModel GetDatabyID(int id)
         {
             return _res.GetDatabyID(id);
         }

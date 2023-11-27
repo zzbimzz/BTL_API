@@ -9,7 +9,7 @@ namespace BusinessLogicLayer
 {
     public partial interface IOrdersBusiness
     {
-        OrderModel GetDatabyID(int id);
+        GetOrderDetailsModel GetDatabyID(int id);
         bool Create(OrderModel model);
         bool Update(OrderModel model);
         bool Delete(int id);

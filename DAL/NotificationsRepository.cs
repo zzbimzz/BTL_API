@@ -36,6 +36,8 @@ namespace DataAccessLayer
             {
                 var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_AddNewNotifi",
                 "@Title", model.Title,
+                "@ImageNotifi", model.ImageNotifi,
+
                 "@Description", model.Description
 
                 );
@@ -60,6 +62,7 @@ namespace DataAccessLayer
                 var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_UpdateNotifi",
                 "@NotificationID", model.NotificationID,
                 "@Title", model.Title,
+                "@ImageNotifi", model.ImageNotifi,
                 "@Description", model.Description);
 
                 if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))

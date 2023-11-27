@@ -11,7 +11,7 @@ namespace DataAccessLayer
             _dbHelper = dbHelper;
         }
 
-        public OrderModel GetDatabyID(int id)
+        public GetOrderDetailsModel GetDatabyID(int id)
         {
             string msgError = "";
             try
@@ -20,7 +20,7 @@ namespace DataAccessLayer
                      "@OrderID", id);
                 if (!string.IsNullOrEmpty(msgError))
                     throw new Exception(msgError);
-                return dt.ConvertTo<OrderModel>().FirstOrDefault();
+                return dt.ConvertTo<GetOrderDetailsModel>().FirstOrDefault();
             }
             catch (Exception ex)
             {

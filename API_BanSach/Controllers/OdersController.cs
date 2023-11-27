@@ -17,7 +17,7 @@ namespace API_BanSach.Controllers
         }
         [Route("get-by-id/{id}")]
         [HttpGet]
-        public OrderModel GetDatabyID(int id)
+        public GetOrderDetailsModel GetDatabyID(int id)
         {
             return _hoadonBusiness.GetDatabyID(id);
         }

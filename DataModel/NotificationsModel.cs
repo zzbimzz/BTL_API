@@ -9,6 +9,7 @@ namespace DataModel
     {
         public int NotificationID { get; set; }
         public string Title { get; set; }
+        public string ImageNotifi { get; set; }
         public string Description { get; set; }
 
 

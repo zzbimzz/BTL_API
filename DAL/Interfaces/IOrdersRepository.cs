@@ -9,7 +9,7 @@ namespace DataAccessLayer
 {
     public partial interface IOrdersRepository
     {
-        OrderModel GetDatabyID(int id);
+        GetOrderDetailsModel GetDatabyID(int id);
         bool Create(OrderModel model);
         bool Update(OrderModel model);
 
