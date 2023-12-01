@@ -18,7 +18,7 @@ namespace DataAccessLayer
             try
             {
                 var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_customer_get_by_id",
-                     "@CustomerID", id);
+                     "@UserID", id);
                 if (!string.IsNullOrEmpty(msgError))
                     throw new Exception(msgError);
                 return dt.ConvertTo<CustomerModel>().FirstOrDefault();

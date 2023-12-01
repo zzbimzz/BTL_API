@@ -8,15 +8,19 @@ namespace DataModel
 {
     public class StatiѕticModel
     {
-        public int BookID { get; set; }
-        public string Title { get; set; }
-        public string Name { get; set; }
-        public int Quantity { get; set; }
+
+
+
 
         public DateTime OrderDate { get; set; }
 
-        public int Subtotal { get; set; }
+        public int TotalAmount { get; set; }
+
+
+
 
     }
+
+
 
 }

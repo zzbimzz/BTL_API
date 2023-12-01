@@ -94,6 +94,26 @@ namespace DataAccessLayer
             }
         }
 
+
+        public List<GetOrderDetailsModel> GetAll()
+        {
+            string msgError = "";
+            try
+            {
+                var data = _dbHelper.ExecuteQuery("GetHoaDonBy_GetDate");
+                if (!string.IsNullOrEmpty(msgError))
+                {
+                    throw new Exception(msgError);
+                }
+                return data.ConvertTo<GetOrderDetailsModel>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
         public List<StatiѕticModel> ThongKe(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date)
         {
             string msgError = "";

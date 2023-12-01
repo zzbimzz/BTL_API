@@ -41,6 +41,12 @@ namespace API_BanSach.Controllers
         {
             return _hoadonBusiness.Delete(id);
         }
+        [Route("get-all")]
+        [HttpGet]
+        public List<GetOrderDetailsModel> GetAll()
+        {
+            return _hoadonBusiness.GetAll();
+        }
         [Route("ThongKe")]
         [HttpPost]
         public IActionResult ThongKe([FromBody] Dictionary<string, object> formData)

@@ -14,7 +14,7 @@ namespace DataModel
 
         public int TotalAmount { get; set; }
         public bool StatusOrder { get; set; }
-
+        public string Name { get; set; }
 
         public  DateTime OrderDate { get; set; }
 

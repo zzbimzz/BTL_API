@@ -14,6 +14,8 @@ namespace DataAccessLayer
         bool Update(OrderModel model);
 
         bool Delete(int id);
+
+        List<GetOrderDetailsModel> GetAll();
         public List<StatiѕticModel> ThongKe(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date);
 
         public List<SearchOrderModel> Search(int pageIndex, int pageSize, out long total, string name);

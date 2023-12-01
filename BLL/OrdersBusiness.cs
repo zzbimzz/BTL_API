@@ -29,6 +29,10 @@ namespace BusinessLogicLayer
         {
             return _res.Delete(id);
         }
+        public List<GetOrderDetailsModel> GetAll()
+        {
+            return _res.GetAll();
+        }
         public List<StatiѕticModel> ThongKe(int pageIndex, int pageSize, out long total, DateTime? from_date, DateTime? to_date)
         {
             return _res.ThongKe(pageIndex, pageSize, out total, from_date, to_date);
