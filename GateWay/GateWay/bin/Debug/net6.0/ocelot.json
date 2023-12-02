@@ -1,0 +1,53 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{controller}/{action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44330
+        }
+      ],
+      "UpstreamPathTemplate": "/api-admin/{controller}/{action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "PATCH", "DELETE" ],
+      "Key": "admin"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{controller}/{action}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7182
+        }
+      ],
+      "UpstreamPathTemplate": "/api-user/{controller}/{action}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "Key": "user"
+      //  "AuthenticationOptions": {
+      //    "AuthenticationProviderKey": "Bearer",
+      //    "AllowedScopes": []
+      //  }
+    }
+
+
+
+    
+
+  ],
+
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "admin",
+        "user"
+      ],
+      "UpstreamPathTemplate": "/"
+
+    }
+  ]
+}

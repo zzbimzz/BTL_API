@@ -1,0 +1,273 @@
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\appsettings.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\appsettings.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\GateWay.exe
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\GateWay.deps.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\GateWay.runtimeconfig.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\FluentValidation.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Ocelot.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.AssemblyReference.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfoInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CoreCompileInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.GateWay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.build.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.build.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\scopedcss\bundle\GateWay.styles.css
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CopyComplete
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\refint\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\GateWay.genruntimeconfig.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\obj\Debug\net6.0\ref\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\configuration.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\configuration.Production.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\GateWay\GateWay\bin\Debug\net6.0\ocelot.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\appsettings.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\appsettings.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\configuration.Production.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\ocelot.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\configuration.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.exe
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.deps.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.runtimeconfig.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\FluentValidation.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Ocelot.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.AssemblyReference.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfoInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CoreCompileInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.GateWay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.build.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.build.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\scopedcss\bundle\GateWay.styles.css
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CopyComplete
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\refint\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.genruntimeconfig.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\obj\Debug\net6.0\ref\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\Codelearn\GateWay\GateWay\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\appsettings.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\appsettings.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\configuration.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\configuration.Production.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\ocelot.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.exe
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.deps.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.runtimeconfig.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\FluentValidation.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Ocelot.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.AssemblyReference.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfoInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CoreCompileInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.GateWay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.build.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.build.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\scopedcss\bundle\GateWay.styles.css
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CopyComplete
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\refint\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\GateWay.genruntimeconfig.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\API_CodeLearn\GateWay\GateWay\obj\Debug\net6.0\ref\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\appsettings.Development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\appsettings.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\ocelot.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\GateWay.exe
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\GateWay.deps.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\GateWay.runtimeconfig.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\FluentValidation.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Ocelot.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.AssemblyReference.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfoInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CoreCompileInputs.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cs
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.GateWay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.build.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GateWay.props
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.build.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.development.json
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\scopedcss\bundle\GateWay.styles.css
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CopyComplete
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\refint\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.pdb
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\GateWay.genruntimeconfig.cache
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\obj\Debug\net6.0\ref\GateWay.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\MessagePack.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Client.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\System.Text.Json.dll
+D:\Subjects\III\ASP.NET\BTL - asp.net\codelearn_api\GateWay\GateWay\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\appsettings.Development.json
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\appsettings.json
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\ocelot.json
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\GateWay.exe
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\GateWay.deps.json
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\GateWay.runtimeconfig.json
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\GateWay.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\GateWay.pdb
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\FluentValidation.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\MessagePack.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Client.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Common.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Ocelot.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\System.IO.Pipelines.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\System.Net.WebSockets.WebSocketProtocol.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\System.Text.Json.dll
+E:\API\HoanTran\getway\GateWay\GateWay\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.AssemblyReference.cache
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfoInputs.cache
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.AssemblyInfo.cs
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CoreCompileInputs.cache
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cs
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.MvcApplicationPartsAssemblyInfo.cache
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.GateWay.Microsoft.AspNetCore.StaticWebAssets.props
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.build.GateWay.props
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GateWay.props
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GateWay.props
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.pack.json
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.build.json
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\staticwebassets.development.json
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\scopedcss\bundle\GateWay.styles.css
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.csproj.CopyComplete
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.dll
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\refint\GateWay.dll
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.pdb
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\GateWay.genruntimeconfig.cache
+E:\API\HoanTran\getway\GateWay\GateWay\obj\Debug\net6.0\ref\GateWay.dll
